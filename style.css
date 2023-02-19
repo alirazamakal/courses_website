@@ -621,6 +621,131 @@ footer .copyright .pro-links i:hover {
     padding-bottom: 50px !important;
 }
 
+/* COURSES */
+
+#course .course-box-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 3rem;
+    margin-top: 50px; 
+}
+
+#course .courses-1 {
+    text-align: start;
+    background-color: #f9f9ff;
+    height: 100%;
+    position: relative;
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.17);
+}
+
+#course .courses-1 img {
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+}
+
+#course .courses-1 .details {
+    padding: 15px 15px 0 15px;
+}
+
+#course .courses-1 .details i {
+    color: #fdc93b;
+    font-size: .9rem;
+}
+
+#course .courses-1 .cost {
+    background-color: rgb(74, 74, 136);
+    color: #fff;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    bottom: 110px;
+}
+
+/* Course-inner */
+
+#course-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8vw;
+}
+
+#course-inner .overview {
+    width: 70%;
+}
+
+#course-inner .overview .course-img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+#course-inner .overview .course-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#course-inner .overview .course-head .c-name {
+    width: 70%;
+}
+
+#course-inner .overview .course-head .c-name h2 {
+    color: #29303b;
+}
+
+#course-inner .overview .course-head .c-name .star {
+    margin: 6px 0;
+}
+
+#course-inner .overview .course-head .c-name .star i {
+    color: #fdc93b;
+    font-size: 0.9rem;
+}
+
+#course-inner .overview .course-head .c-name p {
+    font-size: 15px;
+}
+
+#course-inner .overview .course-head span {
+    padding: 16px 22px;
+    border-radius: 5px;
+    color: #5838fc;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: rgba(88, 56, 252, 0.1);
+}
+
+#course-inner .learn p {
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+#course-inner .learn p i {
+    color: #654ce4;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+#course-inner .tutor {
+    display: flex;
+}
+
+#course-inner .tutor img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
 
 /* strat media */
 
